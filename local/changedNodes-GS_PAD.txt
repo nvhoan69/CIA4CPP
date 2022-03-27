@@ -1,0 +1,17 @@
+class	name	unique name
+FunctionNode	EmulateBlending	GSRendererNew::EmulateBlending
+ClassNode	GSDeviceVK	GSDeviceVK
+FunctionNode	GetPhysicalControlName	WindowsKeyboard::GetPhysicalControlName
+FunctionNode	GetPhysicalControlName	WindowsMouse::GetPhysicalControlName
+EnumNode	HWBlendFlags	HWBlendFlags
+FunctionNode	PADclose	PADclose
+FunctionNode	PADkeyEvent	PADkeyEvent
+FunctionNode	PADopen	PADopen
+FunctionNode	PADshutdown	PADshutdown
+FunctionNode	WindowsKeyboard	WindowsKeyboard::WindowsKeyboard
+FunctionNode	WindowsMouse	WindowsMouse::WindowsMouse
+VariableNode	extraProcs	WndProcEater::extraProcs
+VariableNode	g_key_status	g_key_status
+VariableNode	padData	PadFullFreezeData::padData
+VariableNode	proc	ExtraWndProcInfo::proc
+VariableNode	query	PadFullFreezeData::query

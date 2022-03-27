@@ -1,0 +1,2 @@
+class	name	unique name
+VariableNode	g_key_status	g_key_status

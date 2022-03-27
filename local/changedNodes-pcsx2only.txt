@@ -1,0 +1,22 @@
+class	name	unique name
+FunctionNode	EmulateBlending	GSRendererNew::EmulateBlending
+ClassNode	GSDeviceVK	GSDeviceVK
+FunctionNode	GetConnectedMediaType	ISampleGrabber::GetConnectedMediaType
+FunctionNode	GetCurrentSample	ISampleGrabber::GetCurrentSample
+FunctionNode	GetPhysicalControlName	WindowsMouse::GetPhysicalControlName
+FunctionNode	GetPhysicalControlName	WindowsKeyboard::GetPhysicalControlName
+EnumNode	HWBlendFlags	HWBlendFlags
+FunctionNode	PADclose	PADclose
+FunctionNode	PADshutdown	PADshutdown
+FunctionNode	SampleCB	ISampleGrabberCB::SampleCB
+FunctionNode	SetCallback	ISampleGrabber::SetCallback
+FunctionNode	SetMediaType	ISampleGrabber::SetMediaType
+FunctionNode	USBconfigure	USBconfigure
+FunctionNode	WindowsKeyboard	WindowsKeyboard::WindowsKeyboard
+FunctionNode	WindowsMouse	WindowsMouse::WindowsMouse
+VariableNode	_PAD3	_PAD3
+VariableNode	extraProcs	WndProcEater::extraProcs
+VariableNode	padData	PadFullFreezeData::padData
+VariableNode	proc	ExtraWndProcInfo::proc
+VariableNode	query	PadFullFreezeData::query
+VariableNode	version	PadFullFreezeData::version

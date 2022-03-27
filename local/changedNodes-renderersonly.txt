@@ -1,0 +1,4 @@
+class	name	unique name
+FunctionNode	EmulateBlending	GSRendererNew::EmulateBlending
+ClassNode	GSDeviceVK	GSDeviceVK
+EnumNode	HWBlendFlags	HWBlendFlags

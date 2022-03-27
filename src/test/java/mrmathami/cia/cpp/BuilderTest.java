@@ -96,8 +96,11 @@ public final class BuilderTest {
 //		final Path outputProject = Path.of("PrusaSlicer_new.proj");
 //		final Path inputZip = Path.of("/home/meo/IdeaProjects/cia/test/test4/new.zip");
 //		final Path outputProject = Path.of("test4_new.proj");
-		final Path inputZip = Path.of("/home/meo/IdeaProjects/cia/test/test4/old.zip");
+
+		final Path inputZip = Path.of("/home/thienkhutu/Documents/work/cia-tsdv/testpcsx2/pcsx2-1.7.2503.zip");
 		final Path outputProject = Path.of("test4_old.proj");
+//		final Path inputZip = Path.of("/home/thienkhutu/Documents/work/cia-tsdv/testpcsx2/pcsx2-1.7.2504.zip");
+//		final Path outputProject = Path.of("test4_new.proj");
 
 		try (final InputStream inputStream = Files.newInputStream(inputZip)) {
 			Files.createDirectories(extractPath);
